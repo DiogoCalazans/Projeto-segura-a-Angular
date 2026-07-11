@@ -1,0 +1,30 @@
+​<section class="container mt-4">
+    <article class="mb-4">
+<h2>Lista de equipamentos de Proteção Individual</h2>
+</article>
+<ul>
+    <li>
+        <strong>Capacete de Segurança</strong><br>
+        Tipo: Proteção de cabeça <br>
+        validade 12 meses
+    </li>
+    <li>
+        <strong>Óculos de Proteção</strong><br>
+        Tipo: Proteção dos olhos <br>
+        Validade: 24 meses
+    </li>
+    <li><strong>Luva de Proteção</strong><br>
+        Tipo: Proteção das mãos <br>
+        Validade: 6 meses</li>
+</ul>
+<button class="btn btn-primary">comprar</button>
+<a routerLink="/epi/detalhe" class="btn btn-primary ms-2">
+
+    Ver detalhes
+
+  </a>
+  <a [routerLink]="['/epi/detalhe']" [queryParams]="{ id: 1 }" class="btn btn-primary ms-2">
+
+    Enviar ID  
+   </a>
+</section>
