@@ -14,4 +14,6 @@ export class App {
  subtitulo = "Gestão  de seguraça do trabalho";
  descricao = "Aplição para contole, monitoramento e conformidade dos equipamentos de proteção individual";
  
+ 
+ 
 }
